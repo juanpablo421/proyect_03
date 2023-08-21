@@ -12,9 +12,9 @@ const math = {}
         // define la funcion dividir(divide)
      function divide(a,b){
         if ((b ==0 && a==0)||(b==0)){
-            return `ERROR0:N/A :: VALORES A= ${a} y B =${b}`.bgRed
+            return `ERROR0:N/A :: VALORES A= ${a} y B =${b}`.bgBlue
             }else if (a== 0) {
-                return `ERROR0:N/A :: VALORES A= ${a} y B =${b}`.bgRed
+                return `ERROR0:N/A :: VALORES A= ${a} y B =${b}`.bgBlue
             }else{
                 return a / b;
 
